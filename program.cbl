@@ -8,7 +8,7 @@ WORKING-STORAGE SECTION.
 PROCEDURE DIVISION.
     DISPLAY "Generating a random number..."
     CALL "RANDOMIZER" USING RANDOM-NUMBER
-    DISPLAY "You have a " RANDOM-NUMBER " bitches"
+    DISPLAY "You have " RANDOM-NUMBER " bitches"
     STOP RUN.
 
 PROGRAM-ID. RANDOMIZER.
